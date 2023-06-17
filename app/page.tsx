@@ -9,11 +9,11 @@ import getCurrentUser from "@/app/actions/getCurrentUser";
 import ClientOnly from "./components/ClientOnly";
 
 interface HomeProps {
-  params: IListingsParams
+  searchParams: IListingsParams
 };
 
-const Home = async ({ params }: HomeProps) => {
-  const listings = await getListings(params);
+const Home = async ({ searchParams }: HomeProps) => {
+  const listings = await getListings(searchParams);
   const currentUser = await getCurrentUser();
 
   if (listings.length === 0) {

@@ -77,9 +77,7 @@ const ListingReservation: React.FC<
           Total
         </div>
         <div>
-          {/* $ {totalPrice} */}
-          ₹ {totalPrice}
-
+          $ {totalPrice}
         </div>
       </div>
     </div>

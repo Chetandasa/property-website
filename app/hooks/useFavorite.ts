@@ -34,9 +34,7 @@ const useFavorite = ({ listingId, currentUser }: IUseFavorite) => {
       let request;
 
       if (hasFavorited) {
-        // request = () => axios.delete(`/api/favorites/${listingId}`);
         request = () => axios.delete(`/api/favorites/${listingId}`);
-
       } else {
         request = () => axios.post(`/api/favorites/${listingId}`);
       }
