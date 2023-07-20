@@ -58,7 +58,7 @@ const UserMenu: React.FC<UserMenuProps> = ({
             cursor-pointer
           "
         >
-          Camp Your home
+          Camp Your Home
         </div>
         <div 
         onClick={toggleOpen}
