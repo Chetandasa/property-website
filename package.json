@@ -9,8 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@jridgewell/sourcemap-codec": "^1.4.15",
     "@next-auth/prisma-adapter": "^1.0.6",
+    "@npmcli/fs": "^3.1.0",
     "@prisma/client": "^4.15.0",
+    "@rollup/plugin-inject": "^5.0.3",
     "@types/node": "^18.16.0",
     "@types/react": "^18.0.38",
     "@types/react-dom": "^18.0.11",
